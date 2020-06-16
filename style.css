@@ -140,9 +140,14 @@ header ul li a.active::before {
   text-align: center;
 }
 
-.about .heading h1{padding-bottom: 10px;}
+.about .heading h1 {
+  padding-bottom: 10px;
+}
 
-.about .heading p{width: 500px;margin: 0 auto;}
+.about .heading p {
+  width: 500px;
+  margin: 0 auto;
+}
 
 .about .row {
   padding-top: 40px;
@@ -174,14 +179,14 @@ header ul li a.active::before {
   color: #fff;
 }
 
+.about .row .main .i0 {}
+
 .about .row .main:hover .i0 {
   content: url('icons/1n.png');
-
 }
 
 .about .row .main:hover .i1 {
   content: url('icons/2n.png');
-
 }
 
 .about .row .main:hover .i2 {
@@ -201,3 +206,160 @@ header ul li a.active::before {
 }
 
 /* end about */
+/* count */
+.count {
+  padding-top: 80px;
+}
+
+.count .bck {
+  background-image: url(images/back1.svg);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  /* padding: 60px 0; */
+  /* height: 300px; */
+}
+
+.count .container {
+  padding: 70px 0;
+}
+
+.count .row {}
+
+.count .one {}
+
+.count .one .main {
+  text-align: center;
+  border: 4px solid #fff;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  color: #fff;
+  position: relative;
+  transition: all .5s ease;
+}
+
+.count .one .main:hover {
+  color: #784CFB;
+  background-color: #fff;
+  border: 10px solid #C1ADFD;
+}
+
+.count .one .main .sub {
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  height: 76px;
+}
+
+.count .one h1 {
+  margin-bottom: 0;
+}
+
+.count .one p {
+  margin: 0;
+  padding: 0;
+}
+
+/* end count */
+/* portfolio */
+.portfolio {
+  padding-top: 100px;
+}
+
+.portfolio .heading {
+  text-align: center;
+  width: 550px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.portfolio .heading h1{padding-bottom: 20px;}
+
+.portfolio .col {
+  padding: 0;
+}
+
+.portfolio .heading .row p {
+  margin: 0 10px;
+  padding: 5px;
+  transition: all .3s ease;
+}
+
+.portfolio .heading .row p:hover,
+.portfolio .heading .row .active {
+  border-radius: 60px;
+  background-color: #784CFB;
+  box-shadow: 0 4px 10px #AF96FC;
+  border-color: #784CFB;
+  color: #fff;
+}
+
+.portfolio .port {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.portfolio .img4{position: relative;bottom: 155px;}
+
+.portfolio .img6{position: relative;bottom: 85px;}
+
+.portfolio .img7{position: relative;bottom: 155px;}
+
+.portfolio .img8{position: relative;bottom: 105px;}
+
+.portfolio .img9{position: relative;bottom: 195px;}
+
+
+/* .............. */
+
+.portfolio .container .port .imag{position: relative;overflow: hidden;}
+
+.portfolio .container .port img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+
+}
+
+.portfolio .container .port .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;color: #000;
+}
+
+.portfolio .container .port .middle span i{font-size: 50px;color:#784CFB; }
+
+
+.portfolio .container .port img:hover {
+  opacity: 0.3;
+
+}
+
+
+
+.portfolio .container .port .imag:hover .middle {
+  opacity: 1;
+}
+
+/* .................... */
+
+
+
+
+
+/* end portfolio */
