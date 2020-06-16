@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  outline: none !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header ul li {
+  padding-left: 30px;
+}
+
+header ul li a {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  /* ..... */
+  position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+header ul li a::before {
+  content: '';
+  height: 3px;
+  background-color: #784CFB;
+  width: 0px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  transition: all .3s ease;
+}
+
+header ul li a:hover::before {
+  width: 30px;
+  color: #784CFB;
+}
+
+header ul li a.active::before {
+  content: '';
+  height: 3px;
+  background-color: #784CFB;
+  width: 30px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #222222;
+}
+
+.btn-primary {
+  border-radius: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #784CFB;
+  border-color: #784CFB;
+  transition: all .3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #784CFB;
+  box-shadow: 0 4px 10px #AF96FC;
+  border-color: #784CFB;
+}
+
+/* home */
+.banner {
+  background-image: url(images/back.svg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+}
+
+#home {
+  margin: 0;
+  overflow: hidden;
+}
+
+#home .row {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#home .row .col .content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#home .row .col .content p {
+  font-size: 20px;
+  margin-bottom: 30PX;
+}
+
+#home .row .col .content button {
+  padding: 10px 30px;
+  border-radius: 60PX;
+  color: #784CFB;
+  border: 1.5px solid #784CFB;
+  font-weight: 500;
+  transition: all .5s ease;
+}
+
+#home .row .col .content button:hover {
+  background-color: #784CFB;
+  color: #fff;
+}
+
+#home .row .col img {
+  width: 100%;
+  /* height: 600px; */
+}
+
+#home .row .col .imgg {}
+
+/* end home */
+/* about */
+.about {
+  padding-top: 90px;
+  background-color: #fff;
+}
+
+.about .heading {
+  text-align: center;
+}
+
+.about .heading h1{padding-bottom: 10px;}
+
+.about .heading p{width: 500px;margin: 0 auto;}
+
+.about .row {
+  padding-top: 40px;
+}
+
+.about .row .one {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about .row .one h2 {
+  margin-bottom: 30px;
+}
+
+.about .row .one p {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.about .row .main {
+  margin: 0 auto;
+  border-radius: 20px;
+  transition: all .5s ease;
+}
+
+.about .row .main:hover {
+  background-color: #784CFB;
+  color: #fff;
+}
+
+.about .row .main:hover .i0 {
+  content: url('icons/1n.png');
+
+}
+
+.about .row .main:hover .i1 {
+  content: url('icons/2n.png');
+
+}
+
+.about .row .main:hover .i2 {
+  content: url('icons/3n.png');
+}
+
+.about .row .main:hover .i3 {
+  content: url('icons/4n.png');
+}
+
+.about .row .main:hover .i4 {
+  content: url('icons/5n.png');
+}
+
+.about .row .main:hover .i5 {
+  content: url('icons/6n.png');
+}
+
+/* end about */
