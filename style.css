@@ -183,6 +183,7 @@ header ul li a.active::before {
 
 .about .row .main:hover .i0 {
   content: url('icons/1n.png');
+  transition: all .5s ease;
 }
 
 .about .row .main:hover .i1 {
@@ -278,7 +279,9 @@ header ul li a.active::before {
   padding-bottom: 60px;
 }
 
-.portfolio .heading h1{padding-bottom: 20px;}
+.portfolio .heading h1 {
+  padding-bottom: 20px;
+}
 
 .portfolio .col {
   padding: 0;
@@ -305,20 +308,36 @@ header ul li a.active::before {
   grid-gap: 20px;
 }
 
-.portfolio .img4{position: relative;bottom: 155px;}
+.portfolio .img4 {
+  position: relative;
+  bottom: 155px;
+}
 
-.portfolio .img6{position: relative;bottom: 85px;}
+.portfolio .img6 {
+  position: relative;
+  bottom: 85px;
+}
 
-.portfolio .img7{position: relative;bottom: 155px;}
+.portfolio .img7 {
+  position: relative;
+  bottom: 155px;
+}
 
-.portfolio .img8{position: relative;bottom: 105px;}
+.portfolio .img8 {
+  position: relative;
+  bottom: 105px;
+}
 
-.portfolio .img9{position: relative;bottom: 195px;}
-
+.portfolio .img9 {
+  position: relative;
+  bottom: 195px;
+}
 
 /* .............. */
-
-.portfolio .container .port .imag{position: relative;overflow: hidden;}
+.portfolio .container .port .imag {
+  position: relative;
+  overflow: hidden;
+}
 
 .portfolio .container .port img {
   opacity: 1;
@@ -327,8 +346,6 @@ header ul li a.active::before {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-
-
 }
 
 .portfolio .container .port .middle {
@@ -339,27 +356,132 @@ header ul li a.active::before {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;color: #000;
+  text-align: center;
+  color: #000;
 }
 
-.portfolio .container .port .middle span i{font-size: 50px;color:#784CFB; }
-
+.portfolio .container .port .middle span i {
+  font-size: 50px;
+  color: #784CFB;
+}
 
 .portfolio .container .port img:hover {
   opacity: 0.3;
-
 }
-
-
 
 .portfolio .container .port .imag:hover .middle {
   opacity: 1;
 }
 
 /* .................... */
-
-
-
-
-
 /* end portfolio */
+/* footer */
+.footer {
+  background-image: url(images/map.svg);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.footer .container {
+  padding: 200px 0 100px 0;
+}
+
+.footer .container .subco {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 90px;
+}
+
+.footer .container .subco .con01 p {
+  margin-bottom: 0;
+}
+
+.footer .container .subco .con1 {
+  padding-bottom: 20px;
+}
+
+.footer .container .subco .one {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.footer .container .subco .one p {
+  font-weight: 500;
+}
+
+.footer .container .subco .one .imagg {
+  margin-right: 20px;
+}
+
+.footer .container .subco .row .sep {
+  padding: 0 40px;
+}
+
+.footer .container .subco .con1 h1 {
+  margin-bottom: 40px;
+}
+
+.footer .container .subco .cnd .row .col .frmm {
+  background-color: #F6F7FB;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.footer .container .subco .cnd .row .col .frmm1 {
+  background-color: #F6F7FB;
+  border: none;
+  border-radius: 10px;
+  height: 180px;
+  margin-bottom: 30px;
+}
+
+/* end footer */
+/* minifoot */
+.minifoot {
+  padding: 80px 0;
+}
+
+.minifoot .aaa {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+.minifoot .aaa h4 {
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+
+.minifoot .aaa .row .col {
+  text-align: center;
+}
+
+.minifoot .aaa .row .col a {
+  font-size: 30px;
+}
+
+.minifoot .aaa .row .col .nav-link {
+  padding: 0;
+}
+
+.minifoot .aaa .row .col i {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding-top: 19px;
+  color: #784CFB;
+  border: 1.5px solid #784CFB;
+  transition: all .3s ease;
+}
+
+.minifoot .aaa .row .col i:hover {
+  color: #fff;
+  background-color: #784CFB;
+}
+
+
+
+/* end minifoot */
