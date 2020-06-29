@@ -28,11 +28,11 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #48FDB7;
+  color: #0DDA90;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
-  color: #48FDB7;
+  color: #0DDA90;
 }
 
 /* ----------/- */
@@ -101,7 +101,7 @@ p {
 }
 
 .contentBox h1 span {
-  color: #48FDB7;
+  color: #0DDA90;
 }
 
 .contentBox .para {
@@ -122,7 +122,7 @@ p {
   text-align: center;
   line-height: 60px;
   display: inline-block;
-  border: 1px solid #48FDB7;
+  border: 1px solid #0DDA90;
   transition: all .3s ease;
 }
 
@@ -131,12 +131,15 @@ p {
   transition: all .3s ease;
 }
 
-header ul li .try:hover,
+header ul li .try:hover {
+  box-shadow: 2px 3px 18px #0DDA90;
+  background-color: #0DDA90;
+}
+
 .play:hover,
 .contentBox button:hover {
-  background-color: #25E39A;
-  box-shadow: 2px 3px 18px #48FDB7;
-  /* flex-wrap: wrap; */
+  background-color: #0DDA90;
+  /* box-shadow: 2px 3px 18px #0DDA90; */
   position: relative;
 }
 
@@ -147,7 +150,7 @@ header ul li .try:hover,
 
 #home .btns button {
   padding: 16px 30px;
-  border: 1px solid #48FDB7;
+  border: 1px solid #0DDA90;
   color: #fff;
   padding: 15px 30px;
   border-radius: 0;
@@ -156,7 +159,7 @@ header ul li .try:hover,
 }
 
 header ul li .try {
-  background-color: #25E39A;
+  background-color: #0DDA90;
   border: none;
   transition: all .3s ease;
 }
@@ -197,13 +200,13 @@ header ul li .try {
 
 #works .signn button {
   padding: 16px 30px;
-  background-color: #25E39A;
+  background-color: #0DDA90;
   border: none;
   transition: all .3s ease;
 }
 
 #works .signn button:hover {
-  box-shadow: 2px 3px 18px #48FDB7;
+  box-shadow: 2px 3px 18px #0DDA90;
 }
 
 /* end works */
@@ -267,17 +270,31 @@ header ul li .try {
   margin-left: 4px;
 }
 
-#footer .logo{margin-bottom: 40px;}
+#footer .logo {
+  margin-bottom: 40px;
+}
 
-#footer .logo2{margin-top: 20px;margin-bottom: 55px;}
+#footer .logo2 {
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
 
-#footer h3{font-weight: 500;color: #fff;}
+#footer h3 {
+  font-weight: 500;
+  color: #fff;
+}
 
-#footer .row{justify-content: space-between;}
+#footer .row {
+  justify-content: space-between;
+}
 
-#footer .cont2 p{line-height: 2;}
+#footer .cont2 p {
+  line-height: 2;
+}
 
-#footer .sm{margin-top: 40px;}
+#footer .sm {
+  margin-top: 40px;
+}
 
 #footer .sm span {
   margin-left: 10px;
@@ -293,18 +310,25 @@ header ul li .try {
   transition: all .3s ease;
 }
 
-
 #footer .sm span:hover {
-  border: 1px solid #48FDB7;
-  color: #48FDB7;
+  border: 1px solid #0DDA90;
+  color: #0DDA90;
   position: relative;
 }
+
 /* ..................... */
+.last {
+  padding: 40px 0;
+  text-align: center;
+}
 
-.last{padding: 40px 0;text-align: center;}
+.last p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
 
-.last p{font-size: 16px;margin-bottom: 0;}
-
-.last p span{color: #48FDB7;}
+.last p span {
+  color: #0DDA90;
+}
 
 /* end footer */
