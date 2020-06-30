@@ -107,6 +107,8 @@ p {
 .contentBox .para {
   padding-bottom: 25px;
   letter-spacing: .5px;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .contentBox .para2 {
@@ -316,6 +318,8 @@ header ul li .try {
   position: relative;
 }
 
+
+
 /* ..................... */
 .last {
   padding: 40px 0;
@@ -331,4 +335,129 @@ header ul li .try {
   color: #0DDA90;
 }
 
+.footer .logo img {
+  width: 250px;
+}
+
 /* end footer */
+/* ............................................... */
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+  .contentBox h1 {
+    font-size: 30px;
+  }
+
+  #home .container .ccx p {
+    font-weight: 300;
+  }
+
+  .contentBox p {
+    font-size: 16px;
+  }
+
+  #works .row .imgg {
+    margin-bottom: 0px;
+  }
+
+  #works .row .imgg img {
+    width: 70px;
+  }
+
+  #works .row .col p {
+    font-size: 18px;
+  }
+
+  .footer .logo img {
+    width: 200px;
+  }
+
+  #footer h3 {
+    font-size: 20px;
+  }
+
+  #footer .cont p {
+    font-size: 16px;
+  }
+
+  /* .............. */
+  #footer .sm span {
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .last {
+    padding: 30px 0;
+  }
+
+  #touch .cont h2 {
+    margin-bottom: 30px;
+  }
+
+  .touch .content {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .touch .content {
+    text-align: center;
+  }
+
+  #touch .cont h2 {
+    margin-bottom: 30px;
+  }
+
+.footer .row .momo{text-align: center;}
+
+.footer .row{justify-content: space-between;}
+
+.footer .boo{padding-left: 100px;}
+
+.last p{font-size: 12px;}
+
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+.contentBox h1{font-size: 24px;width: 340px;margin: 0 auto;padding-bottom: 30px;}
+
+ .contentBox .para{width: 340px;}
+
+#home .btns button{display: block;margin: auto;margin-bottom: 30px;}
+
+.contentBox .para2{padding-left: 10px;}
+
+#touch .imgg img{width: 260px;}
+
+.footer .row .col{text-align: center;}
+
+.footer .boo{padding-left: 15px;}
+
+#footer .logo2{margin-bottom: 0;}
+
+#footer .sm span {
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+}
