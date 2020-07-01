@@ -224,7 +224,7 @@ ul li {
 
 .cr1{}
 
-.carousel-control-next, .carousel-control-prev{width: 0;}
+.carousel-control-next, .carousel-control-prev{width: 8%;}
 
 
 .con {
@@ -246,7 +246,7 @@ ul {
     padding: 20px;margin: 0 auto;
 }
 
-
+.contentBox{align-items: flex-start;padding-top: 40px;}
 
 
 
