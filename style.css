@@ -124,7 +124,7 @@ p {
   text-align: center;
   line-height: 60px;
   display: inline-block;
-  border: 1px solid #0DDA90;
+  border: 1.5px solid #0DDA90;
   transition: all .3s ease;
 }
 
@@ -152,7 +152,7 @@ header ul li .try:hover {
 
 #home .btns button {
   padding: 16px 30px;
-  border: 1px solid #0DDA90;
+  border: 1.5px solid #0DDA90;
   color: #fff;
   padding: 15px 30px;
   border-radius: 0;
@@ -341,9 +341,22 @@ header ul li .try {
 
 /* end footer */
 /* ............................................... */
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+  #footer .sm span {
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+}
 
 @media only screen and (max-width: 992px) {
+
+
+
   .contentBox h1 {
     font-size: 30px;
   }
