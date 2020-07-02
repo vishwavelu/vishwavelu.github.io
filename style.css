@@ -177,6 +177,8 @@ ul li {
   margin: 0 auto;
 }
 
+ .ttl1 h5.bob{padding-top:0;font-size:20px;font-weight:500;width:300px;}
+
 /* .................................. */
 @media only screen and (max-width: 576px) {
   body {
@@ -302,4 +304,16 @@ ul li {
     padding-left: 0;
     padding-right: 0;
   }
+
+.ttl1 h5.bob{width: 270px;font-size: 16px;text-align: center;padding-top: 0px;}
+
+
+/* ................................ */
+
+.slide{height: 500px;}
+
+
+
+
+
 }
