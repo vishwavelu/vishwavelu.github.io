@@ -209,6 +209,7 @@ ul li {
     padding: 0;
     width: 350px;
     margin: auto;
+    padding-top: 24px;
   }
 
   .heading .logo {
@@ -297,7 +298,7 @@ ul li {
 
   .contentBox {
     align-items: flex-start;
-    padding-top: 24px;
+    /* padding-top: 24px; */
   }
 
   .container {
