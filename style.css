@@ -16,6 +16,11 @@ body {
   align-items: center;
 }
 
+.item.active img{
+margin-left: auto;
+margin-right: auto;
+}
+
 .slide {}
 
 .imgg {
