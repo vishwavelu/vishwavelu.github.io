@@ -1,245 +1,265 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>slide</title>
 
-<head>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta charset="utf-8">
-  <title>slide</title>
+    <!-- bootstrap -->
 
-  <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- font aesom cdn -->
 
-  <!-- font aesom cdn -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
 
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- animation -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- fontawsom -->
 
-  <!-- css -->
-  <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <!-- .................................................................. -->
 
-  <!-- fontawsom -->
-
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
-</head>
-<!-- .................................................................. -->
-
-<body>
-
-  <div class="container">
-
-    <div class="contentBox ">
-
-      <div class="mainn">
-
-        <div class="heading">
-          <div class="title">
-            <h3>Back to home after treatment</h3>
+  <body>
+    <div class="container">
+      <div class="contentBox">
+        <div class="mainn">
+          <div class="heading">
+            <div class="title">
+              <h3>Back to home after treatment</h3>
+            </div>
+            <div class="logo">
+              <img src="back/logo.png" alt="" />
+            </div>
           </div>
-          <div class="logo">
-            <img src="back/logo.png" alt="">
+
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="imgg">
+                  <img src="img/think.svg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="conto">
+                  <h5>What can I expect when I get home ?</h5>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div>
+                  <div class="imgg">
+                    <img src="img/doctor.svg" class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="conto">
+                    <h5>
+                      Before you go home we will tell you how the procedure went
+                      and you should follow these steps.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="vv vvv">
+                  <div style="margin-left: 20px;" class="contoo">
+                    <div class="ttl">
+                      <!-- <h5 class="ho">Signs of infection:</h5> -->
+                    </div>
+                    <div class="cts">
+                      <ul>
+                        <li>Make sure you understand what has been done.</li>
+                        <li>Ask the surgeon if everything went as planned.</li>
+                        <li>Let the staff know if you have any discomfort.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="imgg imgg1">
+                    <img src="img/file2.svg" class="d-block bv" alt="..." />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="vv vvv">
+                  <div style="margin-left: 20px;" class="contoo">
+                    <div class="ttl">
+                      <!-- <h5 class="ho">Signs of infection:</h5> -->
+                    </div>
+                    <div class="cts">
+                      <ul>
+                        <li>Ask what you can (and cannot) do at home.</li>
+                        <li>Make sure you know what happens next and</li>
+                        <li>Ask when you can return to normal activities.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="imgg imgg1">
+                    <img src="img/clear.svg" class="d-block bv" alt="..." />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="imgg">
+                  <img src="img/drink.svg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="conto">
+                  <h5>
+                    Avoid taking alcohol until your antibiotics course is
+                    compelted.
+                  </h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="imgg">
+                  <img src="img/heavy.svg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="conto">
+                  <h5>Avoid heavy lifting / strenous exercise.</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="imgg">
+                  <img src="img/pain.svg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="conto">
+                  <h5>
+                    Please feel free to take your pain relief as required.
+                  </h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="vv">
+                  <div style="margin-left: 20px;" class="contoo">
+                    <div class="ttl">
+                      <h5 class="ho">Signs of infection:</h5>
+                    </div>
+                    <div class="cts">
+                      <ul>
+                        <li>Feelign generally unwell</li>
+                        <li>Flu like symptoms</li>
+                        <li>Rigors ( shivering and shaking)</li>
+                        <li>Higher temperature( feeling hot and sweaty)</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="imgg imgg1">
+                    <img src="img/sim.svg" class="d-block bv" alt="..." />
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="vv">
+                  <div class="contoo">
+                    <div class="ttl1 ttl">
+                      <h5 style="" class="bob ho">
+                        We will give you advice what to look out for when you
+                        get home. Your surgeon or nurse will also give you
+                        details of who to contact, and how to contact them, in
+                        the event of problems.
+                      </h5>
+                    </div>
+                  </div>
+                  <div class="imgg imgg1">
+                    <img src="img/doctor.svg" class="d-block bv" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev carousel-control"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span class="car cr1" aria-hidden="true"
+                ><i class="fas fa-chevron-left"></i
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next carousel-control"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span class="car cr2" aria-hidden="true"
+                ><i class="fas fa-chevron-right"></i
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-        </div>
-
-        <div id="carouselExampleControls" class="carousel slide" data-interval="false">
-          <div style="" class="carousel-inner">
-            <div style="" class="carousel-item active">
-              <div class="imgg">
-                <img src="img/think.svg" class="d-block w-100" alt="...">
-              </div>
-              <div class="conto">
-                <h5>What can I expect when I
-                  get home ?</h5>
-                <!-- <h6>Before you go home we will tell you how the procedure went and you should</h6> -->
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="imgg">
-                <img src="img/doctor.svg" class="d-block w-100" alt="...">
-              </div>
-              <div class="conto">
-                <h5>Before you go home we will tell you how the procedure went and you should follow these steps.</h5>
-              </div>
-            </div>
-            <!-- <div class=" carousel-item">
-              <div class="con">
-                <div class="ttl">
-
-                </div>
-                <div class="cts">
-                  <ul>
-                    <li>Make sure you understand
-                      what has been done.</li>
-                    <li>Ask the surgeon if everything
-                      went as planned.</li>
-                    <li>Let the staff know if you have
-                      any discomfort.</li>
-                    <li>Ask what you can (and cannot)
-                      do at home.</li>
-                    <li>Make sure you know what
-                      happens next and</li>
-                    <li>Ask when you can return to
-                      normal activities.</li>
-                  </ul>
-
-                </div>
-              </div>
-            </div> -->
-            <div class="carousel-item">
-              <div class="vv vvv">
-                <div style="margin-left:20px;" class="contoo ">
-                  <div class="ttl">
-                    <!-- <h5 class="ho">Signs of infection:</h5> -->
-                  </div>
-                  <div class="cts">
-                    <ul>
-                      <li>Make sure you understand
-                        what has been done.</li>
-                      <li>Ask the surgeon if everything
-                        went as planned.</li>
-                      <li>Let the staff know if you have
-                        any discomfort.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="imgg imgg1">
-                  <img src="img/file2.svg" class="d-block bv" alt="...">
-                </div>
-              </div>
-
-            </div>
-            <div class="carousel-item">
-              <div class="vv vvv">
-                <div style="margin-left:20px;" class="contoo ">
-                  <div class="ttl">
-                    <!-- <h5 class="ho">Signs of infection:</h5> -->
-                  </div>
-                  <div class="cts">
-                    <ul>
-                      <li>Ask what you can (and cannot)
-                        do at home.</li>
-                      <li>Make sure you know what
-                        happens next and</li>
-                      <li>Ask when you can return to
-                        normal activities.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="imgg imgg1">
-                  <img src="img/clear.svg" class="d-block bv" alt="...">
-                </div>
-              </div>
-
-            </div>
-            <div class="carousel-item">
-              <div class="imgg">
-                <img src="img/drink.svg" class="d-block w-100" alt="...">
-              </div>
-              <div class="conto">
-                <h5>Avoid taking alcohol until your antibiotics course is compelted.</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="imgg">
-                <img src="img/heavy.svg" class="d-block w-100" alt="...">
-              </div>
-              <div class="conto">
-                <h5>Avoid heavy lifting / strenous exercise.</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="imgg ">
-                <img src="img/pain.svg" class="d-block w-100" alt="...">
-              </div>
-              <div class="conto">
-                <h5>Please feel free to take your pain relief
-                  as required.</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="vv">
-                <div style="margin-left:20px;" class="contoo ">
-                  <div class="ttl">
-                    <h5 class="ho">Signs of infection:</h5>
-                  </div>
-                  <div class="cts">
-                    <ul>
-                      <li>Feelign generally unwell</li>
-                      <li>Flu like symptoms</li>
-                      <li>Rigors ( shivering and shaking)</li>
-                      <li>Higher temperature( feeling hot and sweaty)</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="imgg imgg1">
-                  <img src="img/sim.svg" class="d-block bv" alt="...">
-                </div>
-              </div>
-
-            </div>
-
-            <div class="carousel-item">
-              <div class="vv">
-                <div class="contoo ">
-                  <div class="ttl1 ttl">
-                    <h5 style="" class="bob ho">We will give you advice what
-                      to look out for when you get home.
-                      Your surgeon or nurse will also give
-                      you details of who to contact, and
-                      how to contact them, in the event
-                      of problems.</h5>
-                  </div>
-                </div>
-                <div class="imgg imgg1">
-                  <img src="img/doctor.svg" class="d-block bv" alt="...">
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" >
-            <span class="car cr1" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" >
-            <span class="car cr2" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
       </div>
-
-
-
-
     </div>
 
-  </div>
+    <!-- js links bootstrap -->
 
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <style>
+      .carousel-control-prev {
+        display: none;
+      }
+    </style>
+    <script>
+      $(".carousel").carousel({
+        interval: false,
+      });
 
+      $("#carouselExampleControls").on("slid.bs.carousel", checkitem);
 
-
-
-
-
-
-
-  <!-- js links bootstrap -->
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-</body>
-
+      function checkitem() {
+        // check function
+        var $this = $("#carouselExampleControls");
+        if ($(".carousel-inner .carousel-item:first").hasClass("active")) {
+          $this.children(".carousel-control-prev").hide();
+        } else if (
+          $(".carousel-inner .carousel-item:last").hasClass("active")
+        ) {
+          $this.children(".carousel-control-next").hide();
+        } else {
+          $this.children(".carousel-control").show();
+          $(".carousel-control-prev").css("display", "flex");
+        }
+      }
+    </script>
+  </body>
 </html>
