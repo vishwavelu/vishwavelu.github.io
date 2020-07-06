@@ -330,7 +330,9 @@ ul li {
 
   /* ................................ */
 
-  .slide {
-    height: 460px;
+  .carousel-item {
+    height: auto;
+    min-height: 70vh !important;
+    margin-top: 10% !important;
   }
 }
