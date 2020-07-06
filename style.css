@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 * {
   outline: none !important;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-image: url(back/home.svg);
   background-size: cover;
   position: relative;
@@ -16,12 +16,13 @@ body {
   align-items: center;
 }
 
-.item.active img{
-margin-left: auto;
-margin-right: auto;
+.item.active img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.slide {}
+.slide {
+}
 
 .imgg {
   /* width: 210px; */
@@ -71,7 +72,7 @@ margin-right: auto;
   height: 600px;
   border-radius: 10px;
   margin: 0 auto;
-  box-shadow: 0 20px 30px #B1DCE0;
+  box-shadow: 0 20px 30px #b1dce0;
 }
 
 .slide {
@@ -86,7 +87,7 @@ margin-right: auto;
 }
 
 span {
-  color: #00AEEF;
+  color: #00aeef;
   font-size: 30px;
 }
 
@@ -115,13 +116,14 @@ span {
 }
 
 .title h3 {
-  color: #00AEEF;
+  color: #00aeef;
   font-size: 32px;
   padding-left: 185px;
   font-weight: 600;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
   opacity: 1;
 }
 
@@ -153,7 +155,9 @@ span {
   /* padding: 20px 0 60px 0; */
 }
 
-.vvv{margin-top: 20px;}
+.vvv {
+  margin-top: 20px;
+}
 
 .contoo {
   width: 400px;
@@ -166,7 +170,7 @@ ul {
 
 ul li::before {
   content: "\2022";
-  color: #00AEEF;
+  color: #00aeef;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -184,15 +188,18 @@ ul li {
   margin: 0 auto;
 }
 
- .ttl1 h5.bob{padding-top:0;font-size:20px;font-weight:500;width:300px;}
+.ttl1 h5.bob {
+  padding-top: 0;
+  font-size: 20px;
+  font-weight: 500;
+  width: 300px;
+}
 
 /* .................................. */
 @media only screen and (max-width: 576px) {
   body {
     background-image: url(back/mini.svg);
   }
-
-
 
   .slide {
     width: 350px;
@@ -232,7 +239,6 @@ ul li {
   .heading .title h3 {
     margin-left: 20px;
     display: inline-block;
-
   }
 
   span {
@@ -269,9 +275,11 @@ ul li {
     width: 280px;
   }
 
-  .cr1 {}
+  .cr1 {
+  }
 
-  .carousel-control-next, .carousel-control-prev {
+  .carousel-control-next,
+  .carousel-control-prev {
     width: 8%;
   }
 
@@ -313,15 +321,16 @@ ul li {
     padding-right: 0;
   }
 
-.ttl1 h5.bob{width: 270px;font-size: 16px;text-align: center;padding-top: 0px;}
+  .ttl1 h5.bob {
+    width: 270px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 0px;
+  }
 
+  /* ................................ */
 
-/* ................................ */
-
-.slide{height: 460px;}
-
-
-
-
-
+  .slide {
+    height: auto;
+  }
 }
